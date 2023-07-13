@@ -1,0 +1,16 @@
+.contact-section {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  background-color: var(--color-background);
+  margin-left: auto;
+}
+
+.contact__container {
+  display: flex;
+  height: 100%;
+}
+
+.contact__header {
+  font-size: 32px;
+}

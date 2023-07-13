@@ -1,0 +1,34 @@
+.progress-bar {
+  height: 0;
+  width: 12px;
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+}
+
+.progress-bar--left {
+  left: 0;
+}
+
+.progress-bar--right {
+  right: 0;
+}
+
+.progress-bar__container {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-pink);
+  transform-origin: top center;
+  transform: scaleY(1);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 968px) {
+  .progress-bar--left {
+    right: 0;
+    left: auto;
+  }
+}
